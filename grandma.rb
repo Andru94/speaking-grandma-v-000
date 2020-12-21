@@ -13,4 +13,6 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(string)
-  if string.
+  if string.match(/[a-z]/)
+    return 'HUH?! SPEAK UP, SONNY!'
+    
